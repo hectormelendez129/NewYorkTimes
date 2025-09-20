@@ -1,0 +1,452 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+u {
+    padding: 1rem;
+    color: black;
+}
+
+ul li a,
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* Add to elements to make them row or columns */
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.justCent {
+    justify-content: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+p,
+.leftCol h2,
+.rightCol h2 {
+    margin: 0;
+}
+
+/* End globals */
+/* NavBar1 */
+
+header div section {
+    gap: .5rem;
+}
+
+header div section i {
+    padding-top: .3rem;
+}
+
+header div section button {
+    background-color: rgb(41, 201, 255);
+    color: white;
+    border: .1rem solid black;
+}
+
+header div section button a {
+    color: white;
+}
+
+/* end NavBar1 */
+/* Oped Article Positioning */
+.opedPages {
+    justify-content: space-between;
+
+}
+
+.opedLeft,
+.opedRight {
+    /* justify-content: space-around; */
+    border-left: .1rem solid lightgray;
+    flex: 1;
+}
+
+.opedLeftArt,
+.opedRightArt {
+    justify-content: space-around;
+    margin: .5rem;
+}
+
+.opedIMG img {
+    width: 40%;
+}
+
+.opedLeftArt p,
+.opedLeftArt h4,
+.opedLeftArt h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+
+/* End Right Col positioning */
+video {
+    width: 100%;
+}
+
+/* Aside */
+
+.ads {
+    justify-content: space-between;
+    align-items: center;
+    border-top: .1rem solid lightgray;
+    border-bottom: .1rem solid lightgrey;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+aside section {
+    height: 6rem;
+    width: 50%;
+}
+
+.listOfArts {
+    margin-top: 8rem;
+}
+
+.adLeft {
+    border-right: .1rem solid lightgray;
+}
+
+/* Aside End */
+/* LOGO */
+#logo img {
+    width: 40%;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* End Logo */
+/* Time Weather Bar Spacing */
+.timeWeather {
+    gap: .7rem;
+    font-size: small;
+    color: gray;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.timeWeather p,
+.timeWeather time {
+    font-size: small;
+    border-right: 1px solid gray;
+    padding-right: 1rem;
+}
+
+/* weather end */
+/* navbar 2 style and position */
+#navBar2 {
+    gap: .7rem;
+    justify-content: space-evenly;
+    font-weight: lighter;
+    margin: 0 6rem 2rem 6rem;
+
+}
+
+#navBar2 a {
+    font-size: small;
+}
+
+/* end nabar2 */
+
+/* left middle right Sizing */
+main {
+    gap: 1rem;
+}
+
+.leftCol {
+    flex: 1;
+}
+
+.midCol,
+.rightCol {
+    flex: 2;
+}
+
+/* End LMR Sizing */
+/* Left Column */
+.leftCol h2 {
+    font-size: x-small;
+}
+
+.leftCol a h3 {
+    font-size: xx-large;
+    padding: 1.5rem 0 .5rem 0;
+    margin: 0;
+}
+
+.leftCol a p,
+.xsmallGray {
+    color: gray;
+    font-size: x-small;
+}
+
+.leftCol a h4 ul {
+    padding-left: .5rem;
+    font-size: small;
+}
+
+.leftCol a h4 ul li {
+    padding-bottom: 1rem;
+}
+
+.leftCol a h3 {
+    font-size: x-large;
+}
+
+.leftCol time .redTime {
+    color: red;
+    font-weight: lighter;
+}
+
+.leftCol a:nth-of-type(2) p:nth-of-type(3) {
+    color: black;
+    font-size: medium;
+}
+
+/* Middle Column */
+.normalP {
+    font-size: small;
+    margin-bottom: 1rem;
+}
+
+#headlineNavBar {
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#headlineNavBar a {
+    font-size: x-small;
+    border-right: 1px solid gray;
+    padding-right: 1rem;
+}
+
+div section h2 a {
+    font-size: larger;
+}
+
+#midColTwo h3 a.normalP {
+    margin-bottom: 0;
+    color: black;
+}
+
+#midColTwo p.xsmallGray time,
+#headlineArticle3 h3 time,
+#headlineArticle4 p time {
+    color: red;
+}
+
+#midColTwo a {
+    color: blue;
+}
+
+#headlineArticle3 h3 {
+    margin-top: 0;
+    font-size: small;
+}
+
+#headlineArticle4 h3 {
+    margin-bottom: 0;
+}
+
+#headlineArticle4 P {
+    color: gray;
+}
+
+/* End mid column */
+/* Opinion Pages */
+.rightCol h2 {
+    text-align: center;
+}
+
+.opedLeftArt section:nth-of-type(1) {
+    flex: 1;
+}
+
+.opedLeftArt section:nth-of-type(2) {
+    flex: 1;
+}
+
+.opedLeftArt section:nth-of-type(2) img {
+    width: 100%;
+}
+
+.opedLeftArt section p,
+.opedLeftArt section h3,
+.opedLeftArt section h4 {
+    font-size: x-small;
+}
+
+#leftArtNav ul,
+.opedRight ul#rightlist {
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+.opedRightArt section:nth-of-type(1) {
+    flex: 1;
+}
+
+.opedRightArt section:nth-of-type(2) {
+    flex: 1;
+}
+
+.opedRightArt section:nth-of-type(2) img {
+    width: 100%;
+}
+
+.adRight img {
+    width: 20%;
+    height: 30%;
+}
+
+.listOfArts {
+    margin-top: 0;
+    width: 70%;
+}
+
+.listOfArts ol {
+    padding-left: 1rem;
+}
+
+.listOfArts ol li {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+#navBar1 {
+    font-size: small;
+}
+
+.appear {
+    display: none;
+}
+
+
+/* End Opinion Pages */
+/* Smaller Screens */
+@media screen and (max-width: 1024px) {
+    .arrange {
+        display: none;
+    }
+
+    .appear {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    main {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .leftCol {
+        flex: 1;
+        order: 1;
+    }
+
+    .midCol {
+        flex: 2;
+        order: 2;
+    }
+
+    .rightCol {
+        flex: 1 0 100%;
+        order: 3;
+        margin-top: 2rem;
+    }
+    .rightCol.col h2{
+        font-size: x-large;
+        padding-bottom: 1rem;
+    }
+    #navBar1 section button:nth-of-type(1){
+        background-color: whitesmoke;
+    }
+    #navBar1 section button:nth-of-type(1) a{
+        color: black;
+        font-size: xx-small;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+/* stack the site */
+    main {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .leftCol {
+        flex: 1 0 100%;
+        order: 2;
+        margin-top: 2rem;
+    }
+
+    .midCol {
+        flex: 1;
+        order: 1;
+    }
+
+    .rightCol {
+        flex: 1 0 100%;
+        order: 3;
+        margin-top: 2rem;
+    }
+    /* End site Stack */
+}
+
+@media screen and (max-width: 450px) {
+    /* stack the oped pages */
+    .opedPages{
+        display: flex;
+        flex-direction: column;
+    }
+    .listOfArts{
+        width: 100%;
+    }
+/* end oped stack */
+}
+@media screen and (max-width: 300px) {
+    .ads{
+        display: flex;
+        flex-direction: column;
+    }
+    .adLeft,
+    .adRight{
+        width: 100%;
+    }
+  header div#navBar1 section {
+    gap: 0;
+    }
+}
